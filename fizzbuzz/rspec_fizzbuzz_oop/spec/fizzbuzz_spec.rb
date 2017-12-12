@@ -22,4 +22,13 @@ describe Fizzbuzz do
       expect(@fb.divisible_by?(12, 5)).to be false
     end
 
+    it 'should correctly return fizz, buzz, and fizzbuzz' do
+      @fb.fizzbuzz_iterator(1,15)
+      expect(@fb.fizzbuzz_array[2]).to eq "fizz"
+      expect(@fb.fizzbuzz_array[4]).to eq "buzz"
+      expect(@fb.fizzbuzz_array[-1]).to eq "fizzbuzz"
+    end
+
+
+
 end
