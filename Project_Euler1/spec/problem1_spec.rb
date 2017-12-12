@@ -21,10 +21,10 @@ describe Problem1 do
   it 'should return false if the number is not divisble by 5' do
     expect(@p1.divisible_by?(12, 5)).to be false
   end
-    it 'should return the sum of the multiples of 3 and 5 in the array' do
+
+  it 'should return the sum of the multiples of 3 and 5 in the array' do
     @p1.multiplesof(1,10)
     expect(@p1.total).to eq (33)
   end
-
 
 end
