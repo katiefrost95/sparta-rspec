@@ -9,7 +9,7 @@ Here is the rspec documentation:
 https://gist.github.com/eliotsykes/5b71277b0813fbc0df56
 
 ### Fizzbuzz
-In order to run the fizzbuzz tests you need to require rspec run the command rspec in the terminal
+In order to run the fizzbuzz tests you need to require rspec and run the command rspec in the terminal.
 
 ##### Writing fizzbuzz tests:
 The code for the fizzbuzz test is already written in the lib/fizzbuzz.rb file. Therefore in order to create more tests you need only to go into the spec/fizzbuzz_spec.rb. Using the methods in the fizzbuzz.rb file further tests can be written in the following format:
@@ -20,7 +20,7 @@ The code for the fizzbuzz test is already written in the lib/fizzbuzz.rb file. T
 
 
 ### Project Euler test 1
-The aim of this was to test whether the code returned the sum of all the multiple of 3 or 5 below 1000.
+The aim of this was to test whether the code returned the sum of all the multiples of 3 or 5 below 1000.
 Again this unit testing was done using test driven development which meant writing the test first, making it fail, then writing the correct code to make the test pass.
 
 * To run the tests for Project Euler make sure you require rspec, and then run the command rspec and watch the tests pass.
